@@ -37,3 +37,13 @@ while True:
           (d) Extrato
 """)
     a = input("Insira a função desejada >")
+    if a == 'a':
+        AdicionarUsuário(input("Nome> "))
+    elif a == "b":
+        Depósito(input("Usuário> "), input("Valor> "))
+    elif a == "c":
+        Saque(input("Usuário> "), input("Valor> "))
+    elif a == "d":
+        Extrato(input("Usuário> "))
+    elif a == "q":
+        break
